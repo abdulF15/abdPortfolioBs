@@ -1,0 +1,22 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #a2c4fc;
+}
+#project {
+  background-color: #a2c4fc;
+}
+section {
+  padding-top: 5rem;
+}
+#about .container p {
+  animation: animasitext 2s;
+}
+/* animasi */
+@keyframes animasitext {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
